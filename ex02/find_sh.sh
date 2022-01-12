@@ -1,3 +1,3 @@
 #!/bin/bash
-ls . | basename -s *.sh  \;
+find . -name "*.sh" -exec basename {} .sh ";"
 
